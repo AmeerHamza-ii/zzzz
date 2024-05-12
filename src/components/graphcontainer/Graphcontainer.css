@@ -1,0 +1,16 @@
+.maindivvv {
+  margin-top: 10%;
+}
+.combinediv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+.combinediv .second {
+  margin-left: 20%;
+}
+
+.totalcard {
+  width: 60%;
+  padding-bottom: 2%;
+}

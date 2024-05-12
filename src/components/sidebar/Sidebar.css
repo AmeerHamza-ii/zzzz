@@ -1,0 +1,33 @@
+.firstdiv a {
+  text-decoration: none;
+}
+.firstdiv {
+  width: 30vh;
+  display: block;
+  background-color: rgb(38, 153, 251);
+  height: 87vh;
+  border: 1px solid black;
+  position: fixed;
+  z-index: 1000;
+  top: 0; /* Position at the top */
+  left: 0; /* Position at the left */
+  margin-top: 5%;
+  /* padding-top: 10%; */
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.innerfirst {
+  margin-top: 100%;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
